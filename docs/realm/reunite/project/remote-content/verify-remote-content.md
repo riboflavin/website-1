@@ -25,9 +25,18 @@ An overview of the automatic process is as follows:
 
 - A branch (for example `x-feature`) is created in the Redocly project's repository.
 - The changes from the remote source are applied on top of the Redocly project's default branch (`default-branch`).
-- Create a pull request from `x-feature` to `default-branch`.
+- Create a pull request from `x-feature` to `default-branch` (see "Pull request creation conditions" below).
 - Run "Preview build" for `x-feature` branch to verify that changes do not break the project.
 - After verifying that the preview build was successful, Reunite automatically merges the open pull request (if Auto-merge is enabled) and starts a production build.
+
+{% admonition type="info" name="Pull request creation conditions" %}
+Pull request with remote content changes is created automatically when changes are made to the default branch of the remote content source or changes are made to a remote content source that does not support branching (such as URL source) and one of the following conditions is met:
+
+- Reunite uses Redocly-hosted repository
+- Auto-merge is disabled
+
+Otherwise only branch is created and merged (if Auto-merge is enabled).
+{% /admonition %}
 
 ## Additional notes
 

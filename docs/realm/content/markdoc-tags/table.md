@@ -27,7 +27,7 @@ Example syntax:
   ---
 
   - prefixItems
-  - [[Breadcrumb object](#)]
+  - [[Breadcrumb object](#breadcrumb-object)]
   - A list of breadcrumb links to always be displayed first.
 
   {% /table %}
