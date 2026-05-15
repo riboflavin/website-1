@@ -166,6 +166,10 @@ export const cards = [
         title: 'Use AI to review code examples for completeness and accuracy',
         link: '/learn/ai-for-docs/ai-review-code-examples-completeness-accuracy',
       },
+      {
+        title: 'Use AI to automate documentation reviews in your PR workflow',
+        link: '/learn/ai-for-docs/ai-automate-documentation-reviews-pr-workflow',
+      },
       { title: 'AI as a usability tester', link: '/learn/ai-for-docs/ai-usability-testing' },
     ],
   },
