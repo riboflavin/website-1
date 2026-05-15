@@ -186,6 +186,10 @@ export const cards = [
         title: 'Use AI to detect drift between your docs and your live API',
         link: '/learn/ai-for-docs/ai-detect-drift-docs-live-api',
       },
+      {
+        title: 'Use AI to find duplicate and underused APIs in your codebase',
+        link: '/learn/ai-for-docs/ai-find-duplicate-underused-apis',
+      },
       { title: 'AI as a usability tester', link: '/learn/ai-for-docs/ai-usability-testing' },
     ],
   },
