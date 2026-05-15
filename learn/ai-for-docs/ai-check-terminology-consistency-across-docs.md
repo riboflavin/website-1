@@ -18,7 +18,7 @@ Terminology drift also shows up inside OpenAPI `description` fields, error messa
 
 Paste excerpts or file paths with a short domain note. Ask for conflicts, not rewrites, in the first pass.
 
-```markdown
+```markdown {% process=false %}
 You are auditing documentation terminology for [product domain].
 
 Canonical terms we prefer:
@@ -41,7 +41,7 @@ Convert the audit table into a one-page glossary with definition, allowed synony
 
 Example entry:
 
-```markdown
+```markdown {% process=false %}
 ## organization
 Definition: A B2B customer workspace that owns subscriptions.
 Use: organization

@@ -52,7 +52,7 @@ Store alerts in your ticket system with labels docs-drift and api-drift so teams
 
 AI does not replace Respect assertions. It accelerates triage: classify whether the spec, implementation, or documentation is wrong, then propose edits grounded in artifacts you paste.
 
-```markdown
+```markdown {% process=false %}
 You are helping a technical writer fix documentation drift.
 
 Inputs:

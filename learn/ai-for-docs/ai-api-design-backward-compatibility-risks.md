@@ -28,7 +28,7 @@ Have the model label each finding breaking, probably safe, or needs human decisi
 
 Paste something shaped like this before the two files:
 
-```markdown
+```markdown {% process=false %}
 You are comparing two OpenAPI 3.1 documents for backward compatibility.
 
 Roles:

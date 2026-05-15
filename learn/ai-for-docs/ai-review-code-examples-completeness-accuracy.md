@@ -32,7 +32,7 @@ State which samples are hand-written versus generated. Custom `x-codeSamples` ov
 
 Use a checklist-shaped prompt so output is actionable in a PR comment.
 
-```markdown
+```markdown {% process=false %}
 You are reviewing API code examples against OpenAPI 3.1.
 
 Stack: Node 20, undici fetch, bearer token auth.

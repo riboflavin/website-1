@@ -28,7 +28,7 @@ Export or paste a table of services with path prefixes, OpenAPI titles, owners, 
 
 ## Prompt skeleton for overlap and usage signals
 
-```markdown
+```markdown {% process=false %}
 You are reviewing an API inventory for duplicate or underused APIs.
 
 Given the table below:

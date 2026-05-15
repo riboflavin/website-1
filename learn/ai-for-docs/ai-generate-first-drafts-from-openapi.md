@@ -28,7 +28,7 @@ Humans still own factual accuracy, legal wording, performance claims, and privat
 
 Paste something shaped like this before the YAML or JSON:
 
-```markdown
+```markdown {% process=false %}
 You are drafting human-facing API reference prose from OpenAPI 3.1.
 
 Audience:

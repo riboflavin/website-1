@@ -20,7 +20,7 @@ Add either a full OpenAPI file or a curated excerpt. If the file is huge, scope 
 
 ### Domain context block you can paste
 
-```markdown
+```markdown {% process=false %}
 Context: We run a small logistics network for cold freight.
 Actors: shippers, carriers, warehouse staff.
 Workflows: booking a lane, changing pickup windows, recording temperature excursions.
@@ -33,7 +33,7 @@ Review this OpenAPI excerpt for gaps and inconsistencies:
 
 Keep the ask structured so the answer is easy to triage. You can start from this outline and tune nouns to your domain.
 
-```markdown
+```markdown {% process=false %}
 You are reviewing an API design for [one sentence domain].
 
 Please list:
@@ -56,7 +56,7 @@ Treat the list as a prioritized backlog, not a verdict. Some suggestions will no
 
 Before:
 
-```yaml
+```yaml {% process=false %}
 paths:
   /shipments:
     post:
@@ -65,7 +65,7 @@ paths:
 
 After:
 
-```yaml
+```yaml {% process=false %}
 paths:
   /shipments:
     post:

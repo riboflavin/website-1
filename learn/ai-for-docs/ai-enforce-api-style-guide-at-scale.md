@@ -22,7 +22,7 @@ If you only publish prose, standards drift as headcount grows. If you only ship 
 
 Replace paragraphs like "operation identifiers should be clear and consistent" with inspectable lines:
 
-```markdown
+```markdown {% process=false %}
 - [ ] Every operation has an operationId
 - [ ] operationId uses camelCase
 - [ ] Path parameters use snake_case in the spec
@@ -36,7 +36,7 @@ If your organization is still debating standards, the [API guidelines builder](h
 
 Give the model three inputs: the checklist, one representative OpenAPI excerpt that currently fails a few lines, and the Redocly [configurable rules](https://redocly.com/docs/cli/rules/configurable-rules) shape (subject, assertions, severity). Ask for output as a rules block only, with one rule name prefixed with rule/ per checklist item that can be expressed as an assertion.
 
-```markdown
+```markdown {% process=false %}
 You are translating an API style checklist into Redocly CLI configurable rules.
 
 Checklist:
@@ -63,7 +63,7 @@ Prose rule: Operation IDs must use camelCase so generated SDK methods read natur
 
 Configurable rule the model might propose:
 
-```yaml
+```yaml {% process=false %}
 rules:
   rule/operationId-camelCase:
     subject:
@@ -83,7 +83,7 @@ For rules already covered by [built-in rules](https://redocly.com/docs/cli/rules
 
 Start from a shared redocly.yaml at the repo root or in a dedicated standards repository. The [guide to configuring a ruleset](https://redocly.com/docs/cli/guides/configure-rules) shows how extends pulls in recommended, then your custom YAML, then per-rule overrides.
 
-```yaml
+```yaml {% process=false %}
 extends:
   - recommended
   - ./org-api-standards.yaml

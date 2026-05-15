@@ -29,7 +29,7 @@ Add a contact or team channel when your service catalog already stores it. Searc
 
 ## Prompt skeleton for bulk enrichment
 
-```markdown
+```markdown {% process=false %}
 You are enriching API catalog metadata for internal developers.
 
 Rules:
@@ -48,14 +48,14 @@ Review JSON in a pull request like any other generated content.
 
 Before:
 
-```yaml
+```yaml {% process=false %}
 title: orders-svc
 description: ""
 ```
 
 After:
 
-```yaml
+```yaml {% process=false %}
 title: Orders API
 description: Create and track customer orders for the retail storefront.
 tags: [orders, commerce]

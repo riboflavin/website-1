@@ -22,7 +22,7 @@ Note whether navigation is file-driven or explicit. [Navigation in Realm](https:
 
 Keep the prompt checklist-shaped so output is actionable in a restructuring PR.
 
-```markdown
+```markdown {% process=false %}
 You are reviewing documentation navigation for a first-time API integrator.
 
 Tasks they must complete in order:

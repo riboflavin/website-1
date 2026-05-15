@@ -32,7 +32,7 @@ Assistants retrieve smaller chunks when headings are specific and when each page
 
 ### Page template you can reuse
 
-```markdown
+```markdown {% process=false %}
 # Task title (verb + object)
 
 Prerequisites: links to auth and environment setup.

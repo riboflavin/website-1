@@ -34,7 +34,7 @@ Run [lint command](https://redocly.com/docs/cli/commands/lint) in CI on every Op
 
 ### Coverage checklist for lint
 
-```markdown
+```markdown {% process=false %}
 - [ ] Every operation has summary and description
 - [ ] Path and query parameters include description and example where required
 - [ ] 4xx responses documented for authenticated routes
@@ -48,7 +48,7 @@ Promote recurring AI findings into new rule entries when they can be expressed a
 
 [Use AI as a usability tester](https://redocly.com/learn/ai-for-docs/ai-usability-testing) frames the right question: can someone finish a real task with only public docs? Adapt that for coverage audits by naming workflows your analytics or support team already knows matter.
 
-```markdown
+```markdown {% process=false %}
 You are auditing documentation coverage for integrators.
 
 Inputs:

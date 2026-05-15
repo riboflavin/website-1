@@ -22,7 +22,7 @@ List invariants you already enforce in code, such as tenant isolation on every r
 
 ### Auth context block you can paste
 
-```markdown
+```markdown {% process=false %}
 Auth model: OAuth2 client credentials for integrators; session cookies for the dashboard.
 Public: GET /status, GET /openapi.json
 Roles: reader (read-only), admin (write + delete)
@@ -35,7 +35,7 @@ Review securitySchemes, security requirements, and auth-related responses:
 
 Keep the ask structured so findings are easy to triage.
 
-```markdown
+```markdown {% process=false %}
 You are reviewing authentication and authorization for [one sentence domain].
 
 Please list:
@@ -59,7 +59,7 @@ Treat the list as a prioritized backlog, not a verdict. Some routes are intentio
 
 Before:
 
-```yaml
+```yaml {% process=false %}
 paths:
   /reports:
     get:
@@ -75,7 +75,7 @@ components:
 
 After:
 
-```yaml
+```yaml {% process=false %}
 paths:
   /reports:
     get:
@@ -113,7 +113,7 @@ When you accept changes, run the [lint command](https://redocly.com/docs/cli/com
 
 The [built-in rules](https://redocly.com/docs/cli/rules/built-in-rules) catalog includes security-related checks. The [security-defined rule](https://redocly.com/docs/cli/rules/oas/security-defined) verifies that every operation or global security requirement is defined. If an API is intentionally public, the rule documentation shows declaring an empty requirement so readers know the omission is deliberate:
 
-```yaml
+```yaml {% process=false %}
 security: []
 ```
 
