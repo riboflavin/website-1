@@ -162,6 +162,10 @@ export const cards = [
         title: 'Use AI to enforce tone and style consistency across docs',
         link: '/learn/ai-for-docs/ai-enforce-tone-style-consistency-across-docs',
       },
+      {
+        title: 'Use AI to review code examples for completeness and accuracy',
+        link: '/learn/ai-for-docs/ai-review-code-examples-completeness-accuracy',
+      },
       { title: 'AI as a usability tester', link: '/learn/ai-for-docs/ai-usability-testing' },
     ],
   },

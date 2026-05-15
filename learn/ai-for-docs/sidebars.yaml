@@ -5,4 +5,5 @@
 - page: ai-api-design-backward-compatibility-risks.md
 - page: ai-generate-first-drafts-from-openapi.md
 - page: ai-enforce-tone-style-consistency-across-docs.md
+- page: ai-review-code-examples-completeness-accuracy.md
 - page: ai-usability-testing.md
