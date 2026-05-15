@@ -198,6 +198,10 @@ export const cards = [
         title: 'Use AI to help developers find and understand your APIs faster',
         link: '/learn/ai-for-docs/ai-help-developers-find-understand-apis',
       },
+      {
+        title: 'Use AI to check terminology consistency across your docs',
+        link: '/learn/ai-for-docs/ai-check-terminology-consistency-across-docs',
+      },
       { title: 'AI as a usability tester', link: '/learn/ai-for-docs/ai-usability-testing' },
     ],
   },
