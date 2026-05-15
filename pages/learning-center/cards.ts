@@ -178,6 +178,10 @@ export const cards = [
         title: 'Use AI to enforce your API style guide at scale',
         link: '/learn/ai-for-docs/ai-enforce-api-style-guide-at-scale',
       },
+      {
+        title: 'Use AI to find gaps in your documentation coverage',
+        link: '/learn/ai-for-docs/ai-find-gaps-documentation-coverage',
+      },
       { title: 'AI as a usability tester', link: '/learn/ai-for-docs/ai-usability-testing' },
     ],
   },
