@@ -150,6 +150,10 @@ export const cards = [
         title: 'Use AI to review API design for gaps and inconsistencies',
         link: '/learn/ai-for-docs/ai-review-api-design-gaps-inconsistencies',
       },
+      {
+        title: 'Use AI to review API design for backward compatibility risks',
+        link: '/learn/ai-for-docs/ai-api-design-backward-compatibility-risks',
+      },
       { title: 'AI as a usability tester', link: '/learn/ai-for-docs/ai-usability-testing' },
     ],
   },
