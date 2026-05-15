@@ -12,4 +12,5 @@
 - page: ai-find-gaps-documentation-coverage.md
 - page: ai-detect-drift-docs-live-api.md
 - page: ai-find-duplicate-underused-apis.md
+- page: ai-build-searchable-api-catalog.md
 - page: ai-usability-testing.md

@@ -190,6 +190,10 @@ export const cards = [
         title: 'Use AI to find duplicate and underused APIs in your codebase',
         link: '/learn/ai-for-docs/ai-find-duplicate-underused-apis',
       },
+      {
+        title: 'Use AI to build a searchable API catalog for your team',
+        link: '/learn/ai-for-docs/ai-build-searchable-api-catalog',
+      },
       { title: 'AI as a usability tester', link: '/learn/ai-for-docs/ai-usability-testing' },
     ],
   },
