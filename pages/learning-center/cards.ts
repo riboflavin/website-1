@@ -158,6 +158,10 @@ export const cards = [
         title: 'Use AI to generate first drafts from your OpenAPI spec',
         link: '/learn/ai-for-docs/ai-generate-first-drafts-from-openapi',
       },
+      {
+        title: 'Use AI to enforce tone and style consistency across docs',
+        link: '/learn/ai-for-docs/ai-enforce-tone-style-consistency-across-docs',
+      },
       { title: 'AI as a usability tester', link: '/learn/ai-for-docs/ai-usability-testing' },
     ],
   },
