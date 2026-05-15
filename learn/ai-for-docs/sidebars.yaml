@@ -10,4 +10,5 @@
 - page: ai-review-docs-navigation-structure.md
 - page: ai-enforce-api-style-guide-at-scale.md
 - page: ai-find-gaps-documentation-coverage.md
+- page: ai-detect-drift-docs-live-api.md
 - page: ai-usability-testing.md

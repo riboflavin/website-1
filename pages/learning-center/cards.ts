@@ -182,6 +182,10 @@ export const cards = [
         title: 'Use AI to find gaps in your documentation coverage',
         link: '/learn/ai-for-docs/ai-find-gaps-documentation-coverage',
       },
+      {
+        title: 'Use AI to detect drift between your docs and your live API',
+        link: '/learn/ai-for-docs/ai-detect-drift-docs-live-api',
+      },
       { title: 'AI as a usability tester', link: '/learn/ai-for-docs/ai-usability-testing' },
     ],
   },
