@@ -174,6 +174,10 @@ export const cards = [
         title: 'Use AI to review your docs navigation structure',
         link: '/learn/ai-for-docs/ai-review-docs-navigation-structure',
       },
+      {
+        title: 'Use AI to enforce your API style guide at scale',
+        link: '/learn/ai-for-docs/ai-enforce-api-style-guide-at-scale',
+      },
       { title: 'AI as a usability tester', link: '/learn/ai-for-docs/ai-usability-testing' },
     ],
   },
