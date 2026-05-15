@@ -3,4 +3,5 @@
 - page: ai-auth-authorization-patterns.md
 - page: ai-review-api-design-gaps-inconsistencies.md
 - page: ai-api-design-backward-compatibility-risks.md
+- page: ai-generate-first-drafts-from-openapi.md
 - page: ai-usability-testing.md

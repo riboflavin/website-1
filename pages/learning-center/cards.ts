@@ -154,6 +154,10 @@ export const cards = [
         title: 'Use AI to review API design for backward compatibility risks',
         link: '/learn/ai-for-docs/ai-api-design-backward-compatibility-risks',
       },
+      {
+        title: 'Use AI to generate first drafts from your OpenAPI spec',
+        link: '/learn/ai-for-docs/ai-generate-first-drafts-from-openapi',
+      },
       { title: 'AI as a usability tester', link: '/learn/ai-for-docs/ai-usability-testing' },
     ],
   },
