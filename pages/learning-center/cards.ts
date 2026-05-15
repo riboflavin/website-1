@@ -194,6 +194,10 @@ export const cards = [
         title: 'Use AI to build a searchable API catalog for your team',
         link: '/learn/ai-for-docs/ai-build-searchable-api-catalog',
       },
+      {
+        title: 'Use AI to help developers find and understand your APIs faster',
+        link: '/learn/ai-for-docs/ai-help-developers-find-understand-apis',
+      },
       { title: 'AI as a usability tester', link: '/learn/ai-for-docs/ai-usability-testing' },
     ],
   },
