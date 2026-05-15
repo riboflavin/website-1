@@ -170,6 +170,10 @@ export const cards = [
         title: 'Use AI to automate documentation reviews in your PR workflow',
         link: '/learn/ai-for-docs/ai-automate-documentation-reviews-pr-workflow',
       },
+      {
+        title: 'Use AI to review your docs navigation structure',
+        link: '/learn/ai-for-docs/ai-review-docs-navigation-structure',
+      },
       { title: 'AI as a usability tester', link: '/learn/ai-for-docs/ai-usability-testing' },
     ],
   },
