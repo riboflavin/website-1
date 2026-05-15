@@ -142,6 +142,14 @@ export const cards = [
     items: [
       { title: 'AI for Modern Documentation', link: '/learn/ai-for-docs/ai-modern-api-docs' },
       { title: 'AI for Reviews', link: '/learn/ai-for-docs/ai-reviews' },
+      {
+        title: 'AI for authentication and authorization patterns',
+        link: '/learn/ai-for-docs/ai-auth-authorization-patterns',
+      },
+      {
+        title: 'Use AI to review API design for gaps and inconsistencies',
+        link: '/learn/ai-for-docs/ai-review-api-design-gaps-inconsistencies',
+      },
       { title: 'AI as a usability tester', link: '/learn/ai-for-docs/ai-usability-testing' },
     ],
   },
